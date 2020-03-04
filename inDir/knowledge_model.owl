@@ -1,0 +1,2216 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/pixie/ontologies/2018/9/KnowledgeModel"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/pixie/ontologies/2018/9/KnowledgeModel">
+    <Prefix name="" IRI="http://www.semanticweb.org/pixie/ontologies/2018/9/KnowledgeModel#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrla" IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Declaration>
+        <Class IRI="#Acrylic_Glazed_Coatings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asphalt_impregnated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barrier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Batts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blanket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blocking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boards_1X6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boards_1X8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CDX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cladding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Components"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compound_SkimCoat_level5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diagonal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epoxy_Coatings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Expanded_Polystrene"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#External"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Extruded_Polystrene"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Faced"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fiberglass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Finish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fire_resistant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Floor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Floor_Joist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foamglass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foil_Faced"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Glaze_Coatings_5_Coats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gypsum_Board"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gypsum_sealed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gypsum_weatherProof"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Header_Joist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Height"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#House"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Internal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Isocyanurate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Joist_Splices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mineral_Fibre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N_Cladding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N_Gypsum_Board"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N_Insulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N_Plywood_Sheathing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N_Stud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nailed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#No_Finish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#No_vapor_barrier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Not_Pneumatic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#One"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paint_2_coats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paint_3_coats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Painting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perlite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pier_Post"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plywood_Sheathing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pneumatic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pre_finished_vinyl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#R10.9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#R12.4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#R13"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#R4.1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#R4.3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#R6.2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#R6.5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#R8.3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#R8.7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sand_finish_brushwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smooth_finish_brushwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spacing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sprayed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Standard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sub_Flooring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taped_Finished_level4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ten"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thickness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Twelve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Two"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unfaced"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vapor_barrier_oneside"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vapor_barrier_twoside"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water_resistant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wood_Fibre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.04167"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.05208"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.0625"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.08333"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.125"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.16667"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.19"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.208333"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.21"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.24"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.25"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.29167"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.3125"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.32"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.333333"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.375"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.4167"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.500"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.625"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0.750"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1.0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1.5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#10.0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#12"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#14"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#16"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#18"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1_5/CF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2by4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2by6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2.0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2.5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#24"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3.0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3.5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3_0/CF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6.0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6_0/CF"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBarrier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFace"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFiberglassCF"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFiberglassType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFinish"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHeight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLevel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNumber"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpacing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasThickness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLaid"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isNailed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#useTool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aluminium_Sliding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eighteen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Expanded_Polystrene"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Extruded_Polystrene"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fascia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fibre_Cement_Sliding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fibreglass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fire_resistant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Foamglass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fourteen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Isocyanurate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mineral_Fibre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perlite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pre_finished_vinyl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R10.9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R12.4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R4.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R4.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R6.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R6.5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8.7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sixteen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Standard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Steel_Siding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Twelve"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TwentyFour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vinyl_Siding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Water_resistant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wood_Siding_boards"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2by4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2by6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#8"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Barrier"/>
+        <ObjectUnionOf>
+            <Class IRI="#Asphalt_impregnated"/>
+            <Class IRI="#No_vapor_barrier"/>
+            <Class IRI="#Vapor_barrier_oneside"/>
+            <Class IRI="#Vapor_barrier_twoside"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CF"/>
+        <ObjectUnionOf>
+            <Class IRI="#1_5/CF"/>
+            <Class IRI="#3_0/CF"/>
+            <Class IRI="#6_0/CF"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Components"/>
+        <ObjectUnionOf>
+            <Class IRI="#Floor"/>
+            <Class IRI="#Wall"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Expanded_Polystrene"/>
+        <ObjectUnionOf>
+            <Class IRI="#0.04167"/>
+            <Class IRI="#0.05208"/>
+            <Class IRI="#0.0625"/>
+            <Class IRI="#0.08333"/>
+            <Class IRI="#0.125"/>
+            <Class IRI="#0.16667"/>
+            <Class IRI="#0.208333"/>
+            <Class IRI="#0.25"/>
+            <Class IRI="#0.333333"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Extruded_Polystrene"/>
+        <ObjectUnionOf>
+            <Class IRI="#0.08333"/>
+            <Class IRI="#0.125"/>
+            <Class IRI="#0.16667"/>
+            <Class IRI="#0.208333"/>
+            <Class IRI="#0.25"/>
+            <Class IRI="#0.29167"/>
+            <Class IRI="#0.500"/>
+            <Class IRI="#0.750"/>
+            <Class IRI="#1.0"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Faced"/>
+        <ObjectUnionOf>
+            <Class IRI="#Foil_Faced"/>
+            <Class IRI="#Unfaced"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fiberglass"/>
+        <ObjectUnionOf>
+            <Class IRI="#0.08333"/>
+            <Class IRI="#0.125"/>
+            <Class IRI="#0.16667"/>
+            <Class IRI="#0.208333"/>
+            <Class IRI="#0.25"/>
+            <Class IRI="#0.29167"/>
+            <Class IRI="#0.500"/>
+            <Class IRI="#0.750"/>
+            <Class IRI="#1.0"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Finish"/>
+        <ObjectUnionOf>
+            <Class IRI="#Compound_SkimCoat_level5"/>
+            <Class IRI="#No_Finish"/>
+            <Class IRI="#Sand_finish_brushwork"/>
+            <Class IRI="#Smooth_finish_brushwork"/>
+            <Class IRI="#Taped_Finished_level4"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Foamglass"/>
+        <ObjectUnionOf>
+            <Class IRI="#0.125"/>
+            <Class IRI="#0.208333"/>
+            <Class IRI="#0.25"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Height"/>
+        <ObjectUnionOf>
+            <Class IRI="#Eight"/>
+            <Class IRI="#Ten"/>
+            <Class IRI="#Twelve"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Isocyanurate"/>
+        <ObjectUnionOf>
+            <Class IRI="#0.04167"/>
+            <Class IRI="#0.05208"/>
+            <Class IRI="#0.0625"/>
+            <Class IRI="#0.08333"/>
+            <Class IRI="#0.125"/>
+            <Class IRI="#0.16667"/>
+            <Class IRI="#0.208333"/>
+            <Class IRI="#0.25"/>
+            <Class IRI="#0.333333"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Laid"/>
+        <ObjectUnionOf>
+            <Class IRI="#Diagonal"/>
+            <Class IRI="#Regular"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level"/>
+        <ObjectUnionOf>
+            <Class IRI="#Basement"/>
+            <Class IRI="#One"/>
+            <Class IRI="#Two"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Location"/>
+        <ObjectUnionOf>
+            <Class IRI="#External"/>
+            <Class IRI="#Internal"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Mineral_Fibre"/>
+        <ObjectUnionOf>
+            <Class IRI="#0.04167"/>
+            <Class IRI="#0.05208"/>
+            <Class IRI="#0.0625"/>
+            <Class IRI="#0.08333"/>
+            <Class IRI="#0.125"/>
+            <Class IRI="#0.16667"/>
+            <Class IRI="#0.208333"/>
+            <Class IRI="#0.25"/>
+            <Class IRI="#0.333333"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#N_Gypsum_Board"/>
+        <ObjectUnionOf>
+            <Class IRI="#Fire_resistant"/>
+            <Class IRI="#Pre_finished_vinyl"/>
+            <Class IRI="#Standard"/>
+            <Class IRI="#Water_resistant"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#N_Insulation"/>
+        <ObjectUnionOf>
+            <Class IRI="#Expanded_Polystrene"/>
+            <Class IRI="#Extruded_Polystrene"/>
+            <Class IRI="#Fiberglass"/>
+            <Class IRI="#Foamglass"/>
+            <Class IRI="#Isocyanurate"/>
+            <Class IRI="#Mineral_Fibre"/>
+            <Class IRI="#Perlite"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#N_Stud"/>
+        <ObjectUnionOf>
+            <Class IRI="#2by4"/>
+            <Class IRI="#2by6"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Nailed"/>
+        <ObjectUnionOf>
+            <Class IRI="#Not_Pneumatic"/>
+            <Class IRI="#Pneumatic"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Number"/>
+        <ObjectUnionOf>
+            <Class IRI="#R10.9"/>
+            <Class IRI="#R12.4"/>
+            <Class IRI="#R13"/>
+            <Class IRI="#R4.1"/>
+            <Class IRI="#R4.3"/>
+            <Class IRI="#R6.2"/>
+            <Class IRI="#R6.5"/>
+            <Class IRI="#R8.3"/>
+            <Class IRI="#R8.7"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Painting"/>
+        <ObjectUnionOf>
+            <Class IRI="#Acrylic_Glazed_Coatings"/>
+            <Class IRI="#Epoxy_Coatings"/>
+            <Class IRI="#Glaze_Coatings_5_Coats"/>
+            <Class IRI="#Paint_2_coats"/>
+            <Class IRI="#Paint_3_coats"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Perlite"/>
+        <ObjectUnionOf>
+            <Class IRI="#0.04167"/>
+            <Class IRI="#0.05208"/>
+            <Class IRI="#0.0625"/>
+            <Class IRI="#0.08333"/>
+            <Class IRI="#0.125"/>
+            <Class IRI="#0.16667"/>
+            <Class IRI="#0.208333"/>
+            <Class IRI="#0.25"/>
+            <Class IRI="#0.333333"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Spacing"/>
+        <ObjectUnionOf>
+            <Class IRI="#12"/>
+            <Class IRI="#14"/>
+            <Class IRI="#16"/>
+            <Class IRI="#18"/>
+            <Class IRI="#24"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Thickness"/>
+        <ObjectUnionOf>
+            <Class IRI="#0.04167"/>
+            <Class IRI="#0.05208"/>
+            <Class IRI="#0.0625"/>
+            <Class IRI="#0.08333"/>
+            <Class IRI="#0.125"/>
+            <Class IRI="#0.16667"/>
+            <Class IRI="#0.208333"/>
+            <Class IRI="#0.25"/>
+            <Class IRI="#0.333333"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Tool"/>
+        <ObjectUnionOf>
+            <Class IRI="#Roller"/>
+            <Class IRI="#Sprayed"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Type"/>
+        <ObjectUnionOf>
+            <Class IRI="#Batts"/>
+            <Class IRI="#Blanket"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#12"/>
+        <ObjectUnionOf>
+            <Class IRI="#12"/>
+            <Class IRI="#14"/>
+            <Class IRI="#16"/>
+            <Class IRI="#18"/>
+            <Class IRI="#24"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Acrylic_Glazed_Coatings"/>
+        <Class IRI="#Painting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asphalt_impregnated"/>
+        <Class IRI="#Barrier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basement"/>
+        <Class IRI="#Level"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Batts"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blanket"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blocking"/>
+        <Class IRI="#Floor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boards_1X6"/>
+        <Class IRI="#N_Plywood_Sheathing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boards_1X8"/>
+        <Class IRI="#N_Plywood_Sheathing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CDX"/>
+        <Class IRI="#N_Plywood_Sheathing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cladding"/>
+        <Class IRI="#Wall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Components"/>
+        <Class IRI="#House"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compound_SkimCoat_level5"/>
+        <Class IRI="#Finish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diagonal"/>
+        <Class IRI="#Laid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eight"/>
+        <Class IRI="#Height"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Epoxy_Coatings"/>
+        <Class IRI="#Painting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Expanded_Polystrene"/>
+        <Class IRI="#N_Insulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#External"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Extruded_Polystrene"/>
+        <Class IRI="#N_Insulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fiberglass"/>
+        <Class IRI="#N_Insulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fire_resistant"/>
+        <Class IRI="#N_Gypsum_Board"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Floor"/>
+        <Class IRI="#Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Floor_Joist"/>
+        <Class IRI="#Floor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foamglass"/>
+        <Class IRI="#N_Insulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foil_Faced"/>
+        <Class IRI="#Faced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girders"/>
+        <Class IRI="#Floor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glaze_Coatings_5_Coats"/>
+        <Class IRI="#Painting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gypsum_Board"/>
+        <Class IRI="#Wall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gypsum_Board"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFinish"/>
+            <Class IRI="#Compound_SkimCoat_level5"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gypsum_Board"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFinish"/>
+            <Class IRI="#No_Finish"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gypsum_Board"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFinish"/>
+            <Class IRI="#Sand_finish_brushwork"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gypsum_Board"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFinish"/>
+            <Class IRI="#Smooth_finish_brushwork"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gypsum_Board"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFinish"/>
+            <Class IRI="#Taped_Finished_level4"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gypsum_Board"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#Fire_resistant"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gypsum_Board"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#Pre_finished_vinyl"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gypsum_Board"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#Standard"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gypsum_Board"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#Water_resistant"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gypsum_Board"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasThickness"/>
+            <Class IRI="#0.375"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gypsum_Board"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasThickness"/>
+            <Class IRI="#0.500"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gypsum_Board"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasThickness"/>
+            <Class IRI="#0.625"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gypsum_Board"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasThickness"/>
+            <Class IRI="#1.0"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gypsum_sealed"/>
+        <Class IRI="#N_Plywood_Sheathing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gypsum_weatherProof"/>
+        <Class IRI="#N_Plywood_Sheathing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Header_Joist"/>
+        <Class IRI="#Floor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <Class IRI="#Wall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#Expanded_Polystrene"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#Extruded_Polystrene"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#Fiberglass"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#Foamglass"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#Isocyanurate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#Mineral_Fibre"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#Perlite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNumber"/>
+            <Class IRI="#R10.9"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNumber"/>
+            <Class IRI="#R12.4"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNumber"/>
+            <Class IRI="#R13"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNumber"/>
+            <Class IRI="#R4.1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNumber"/>
+            <Class IRI="#R4.3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNumber"/>
+            <Class IRI="#R6.2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNumber"/>
+            <Class IRI="#R6.5"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNumber"/>
+            <Class IRI="#R8.3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNumber"/>
+            <Class IRI="#R8.7"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasThickness"/>
+            <Class IRI="#1.5"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasThickness"/>
+            <Class IRI="#2.0"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasThickness"/>
+            <Class IRI="#2.5"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasThickness"/>
+            <Class IRI="#3.0"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Internal"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Isocyanurate"/>
+        <Class IRI="#N_Insulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Joist_Splices"/>
+        <Class IRI="#Floor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mineral_Fibre"/>
+        <Class IRI="#N_Insulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N_Cladding"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N_Gypsum_Board"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N_Insulation"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N_Plywood_Sheathing"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N_Stud"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#No_Finish"/>
+        <Class IRI="#Finish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#No_vapor_barrier"/>
+        <Class IRI="#Barrier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Not_Pneumatic"/>
+        <Class IRI="#Nailed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#One"/>
+        <Class IRI="#Level"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paint_2_coats"/>
+        <Class IRI="#Painting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paint_3_coats"/>
+        <Class IRI="#Painting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perlite"/>
+        <Class IRI="#N_Insulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pier_Post"/>
+        <Class IRI="#Floor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plywood_Sheathing"/>
+        <Class IRI="#Wall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plywood_Sheathing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLocation"/>
+            <Class IRI="#External"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plywood_Sheathing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLocation"/>
+            <Class IRI="#Internal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plywood_Sheathing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#Boards_1X6"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plywood_Sheathing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#Boards_1X8"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plywood_Sheathing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#Gypsum_sealed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plywood_Sheathing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#Gypsum_weatherProof"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plywood_Sheathing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#Wood_Fibre"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plywood_Sheathing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasThickness"/>
+            <Class IRI="#0.375"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plywood_Sheathing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasThickness"/>
+            <Class IRI="#0.500"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plywood_Sheathing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasThickness"/>
+            <Class IRI="#0.625"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plywood_Sheathing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasThickness"/>
+            <Class IRI="#0.750"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plywood_Sheathing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isLaid"/>
+            <Class IRI="#Diagonal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plywood_Sheathing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isLaid"/>
+            <Class IRI="#Regular"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plywood_Sheathing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isNailed"/>
+            <Class IRI="#Not_Pneumatic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plywood_Sheathing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isNailed"/>
+            <Class IRI="#Pneumatic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pneumatic"/>
+        <Class IRI="#Nailed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pre_finished_vinyl"/>
+        <Class IRI="#N_Gypsum_Board"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#R10.9"/>
+        <Class IRI="#Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#R12.4"/>
+        <Class IRI="#Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#R13"/>
+        <Class IRI="#Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#R4.1"/>
+        <Class IRI="#Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#R4.3"/>
+        <Class IRI="#Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#R6.2"/>
+        <Class IRI="#Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#R6.5"/>
+        <Class IRI="#Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#R8.3"/>
+        <Class IRI="#Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#R8.7"/>
+        <Class IRI="#Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regular"/>
+        <Class IRI="#Laid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roller"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sand_finish_brushwork"/>
+        <Class IRI="#Finish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smooth_finish_brushwork"/>
+        <Class IRI="#Finish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sprayed"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <Class IRI="#N_Gypsum_Board"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stud"/>
+        <Class IRI="#Wall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stud"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHeight"/>
+            <Class IRI="#Eight"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stud"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHeight"/>
+            <Class IRI="#Ten"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stud"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHeight"/>
+            <Class IRI="#Twelve"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stud"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#2by4"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stud"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#2by6"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stud"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpacing"/>
+            <Class IRI="#12"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stud"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpacing"/>
+            <Class IRI="#18"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stud"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpacing"/>
+            <Class IRI="#24"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sub_Flooring"/>
+        <Class IRI="#Floor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taped_Finished_level4"/>
+        <Class IRI="#Finish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ten"/>
+        <Class IRI="#Height"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Twelve"/>
+        <Class IRI="#Height"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Two"/>
+        <Class IRI="#Level"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unfaced"/>
+        <Class IRI="#Faced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vapor_barrier_oneside"/>
+        <Class IRI="#Barrier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vapor_barrier_twoside"/>
+        <Class IRI="#Barrier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wall"/>
+        <Class IRI="#Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water_resistant"/>
+        <Class IRI="#N_Gypsum_Board"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wood_Fibre"/>
+        <Class IRI="#N_Plywood_Sheathing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.04167"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.05208"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.0625"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.08333"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.125"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.16667"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.19"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.208333"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.21"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.24"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.25"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.29167"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.3125"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.32"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.333333"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.375"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.4"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.4167"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.500"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.625"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#0.750"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1.0"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1.5"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10.0"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#12"/>
+        <Class IRI="#Spacing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#14"/>
+        <Class IRI="#Spacing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#16"/>
+        <Class IRI="#Spacing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#18"/>
+        <Class IRI="#Spacing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1_5/CF"/>
+        <Class IRI="#CF"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2by4"/>
+        <Class IRI="#N_Stud"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2by6"/>
+        <Class IRI="#N_Stud"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2.0"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2.5"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#24"/>
+        <Class IRI="#Spacing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3.0"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3.5"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3_0/CF"/>
+        <Class IRI="#CF"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6.0"/>
+        <Class IRI="#Thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6_0/CF"/>
+        <Class IRI="#CF"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Acrylic_Glazed_Coatings"/>
+        <Class IRI="#Epoxy_Coatings"/>
+        <Class IRI="#Glaze_Coatings_5_Coats"/>
+        <Class IRI="#Paint_2_coats"/>
+        <Class IRI="#Paint_3_coats"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Basement"/>
+        <Class IRI="#One"/>
+        <Class IRI="#Two"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#External"/>
+        <Class IRI="#Internal"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Floor"/>
+        <Class IRI="#Wall"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Foil_Faced"/>
+        <Class IRI="#Unfaced"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#N_Cladding"/>
+        <Class IRI="#N_Gypsum_Board"/>
+        <Class IRI="#N_Insulation"/>
+        <Class IRI="#N_Plywood_Sheathing"/>
+        <Class IRI="#N_Stud"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Not_Pneumatic"/>
+        <Class IRI="#Pneumatic"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#R10.9"/>
+        <Class IRI="#R13"/>
+        <Class IRI="#R4.1"/>
+        <Class IRI="#R4.3"/>
+        <Class IRI="#R6.2"/>
+        <Class IRI="#R6.5"/>
+        <Class IRI="#R8.3"/>
+        <Class IRI="#R8.7"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Roller"/>
+        <Class IRI="#Sprayed"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#0.19"/>
+        <Class IRI="#0.21"/>
+        <Class IRI="#0.24"/>
+        <Class IRI="#0.25"/>
+        <Class IRI="#0.3125"/>
+        <Class IRI="#0.32"/>
+        <Class IRI="#0.375"/>
+        <Class IRI="#0.4"/>
+        <Class IRI="#0.500"/>
+        <Class IRI="#0.625"/>
+        <Class IRI="#0.750"/>
+        <Class IRI="#1.0"/>
+        <Class IRI="#1.5"/>
+        <Class IRI="#10.0"/>
+        <Class IRI="#2.0"/>
+        <Class IRI="#2.5"/>
+        <Class IRI="#3.0"/>
+        <Class IRI="#3.5"/>
+        <Class IRI="#6.0"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#12"/>
+        <Class IRI="#16"/>
+        <Class IRI="#24"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#N_Cladding"/>
+        <NamedIndividual IRI="#Aluminium_Sliding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spacing"/>
+        <NamedIndividual IRI="#Eighteen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#N_Cladding"/>
+        <NamedIndividual IRI="#Fascia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#N_Cladding"/>
+        <NamedIndividual IRI="#Fibre_Cement_Sliding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spacing"/>
+        <NamedIndividual IRI="#Fourteen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Number"/>
+        <NamedIndividual IRI="#R10.9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Number"/>
+        <NamedIndividual IRI="#R12.4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Number"/>
+        <NamedIndividual IRI="#R13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Number"/>
+        <NamedIndividual IRI="#R4.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Number"/>
+        <NamedIndividual IRI="#R4.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Number"/>
+        <NamedIndividual IRI="#R6.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Number"/>
+        <NamedIndividual IRI="#R6.5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Number"/>
+        <NamedIndividual IRI="#R8.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Number"/>
+        <NamedIndividual IRI="#R8.7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spacing"/>
+        <NamedIndividual IRI="#Sixteen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#N_Cladding"/>
+        <NamedIndividual IRI="#Steel_Siding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spacing"/>
+        <NamedIndividual IRI="#Twelve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spacing"/>
+        <NamedIndividual IRI="#TwentyFour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#N_Cladding"/>
+        <NamedIndividual IRI="#Vinyl_Siding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#N_Cladding"/>
+        <NamedIndividual IRI="#Wood_Siding_boards"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Height"/>
+        <NamedIndividual IRI="#10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Height"/>
+        <NamedIndividual IRI="#12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Height"/>
+        <NamedIndividual IRI="#8"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBarrier"/>
+        <Class IRI="#Wood_Fibre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFace"/>
+        <Class IRI="#Painting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFiberglassCF"/>
+        <Class IRI="#Fiberglass"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFiberglassType"/>
+        <Class IRI="#Fiberglass"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFinish"/>
+        <Class IRI="#Gypsum_Board"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHeight"/>
+        <Class IRI="#Stud"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLevel"/>
+        <Class IRI="#Floor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLevel"/>
+        <Class IRI="#Wall"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#Wall"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasName"/>
+        <Class IRI="#Blocking"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasName"/>
+        <Class IRI="#Floor_Joist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasName"/>
+        <Class IRI="#Girders"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasName"/>
+        <Class IRI="#Gypsum_Board"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasName"/>
+        <Class IRI="#Header_Joist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasName"/>
+        <Class IRI="#Insulation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasName"/>
+        <Class IRI="#Joist_Splices"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasName"/>
+        <Class IRI="#Pier_Post"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasName"/>
+        <Class IRI="#Plywood_Sheathing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasName"/>
+        <Class IRI="#Stud"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasName"/>
+        <Class IRI="#Sub_Flooring"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNumber"/>
+        <Class IRI="#Insulation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSpacing"/>
+        <Class IRI="#Floor_Joist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSpacing"/>
+        <Class IRI="#Stud"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasThickness"/>
+        <Class IRI="#Blocking"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasThickness"/>
+        <Class IRI="#Cladding"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasThickness"/>
+        <Class IRI="#Floor_Joist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasThickness"/>
+        <Class IRI="#Girders"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasThickness"/>
+        <Class IRI="#Gypsum_Board"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasThickness"/>
+        <Class IRI="#Header_Joist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasThickness"/>
+        <Class IRI="#Insulation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasThickness"/>
+        <Class IRI="#Joist_Splices"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasThickness"/>
+        <Class IRI="#Pier_Post"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasThickness"/>
+        <Class IRI="#Plywood_Sheathing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasThickness"/>
+        <Class IRI="#Sub_Flooring"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLaid"/>
+        <Class IRI="#Boards_1X6"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLaid"/>
+        <Class IRI="#Boards_1X8"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isNailed"/>
+        <Class IRI="#Floor_Joist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isNailed"/>
+        <Class IRI="#Stud"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#useTool"/>
+        <Class IRI="#Painting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBarrier"/>
+        <Class IRI="#Barrier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFace"/>
+        <Class IRI="#Faced"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFiberglassCF"/>
+        <Class IRI="#CF"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFiberglassType"/>
+        <Class IRI="#Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFinish"/>
+        <Class IRI="#Finish"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHeight"/>
+        <Class IRI="#Height"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLevel"/>
+        <Class IRI="#Level"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasName"/>
+        <Class IRI="#Name"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNumber"/>
+        <Class IRI="#Number"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSpacing"/>
+        <Class IRI="#Spacing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasThickness"/>
+        <Class IRI="#Thickness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLaid"/>
+        <Class IRI="#Laid"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isNailed"/>
+        <Class IRI="#Nailed"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#useTool"/>
+        <Class IRI="#Tool"/>
+    </ObjectPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule to Find Stud Height</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Height"/>
+                <Variable IRI="#h"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasName"/>
+                <Variable IRI="#h"/>
+                <NamedIndividual IRI="#2by4"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasSpacing"/>
+                <Variable IRI="#h"/>
+                <Variable IRI="#h1"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Height"/>
+                <Variable IRI="#h"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>For Querying</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Height"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Variable IRI="#x"/>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule to Query</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S4</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Spacing"/>
+                <Variable IRI="#s"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Variable IRI="#s"/>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule to Find Stud Sapcing</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S3</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasName"/>
+                <Variable IRI="#s"/>
+                <NamedIndividual IRI="#2by4"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasHeight"/>
+                <Variable IRI="#st"/>
+                <Variable IRI="#s2"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Spacing"/>
+                <Variable IRI="#s"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Spacing"/>
+                <Variable IRI="#s"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
